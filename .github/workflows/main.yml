@@ -1,0 +1,27 @@
+Why Use Terraform?
+1.	Works Across Clouds: Terraform can manage resources on different cloud platforms (like AWS, Azure, Google Cloud) 
+                         using the same code. This is helpful if you're using more than one cloud provider.
+2.	Ready-Made Solutions: It has a huge collection of pre-built modules from the community, so you can quickly set up 
+                          common services without starting from scratch.
+3.	Easy to Understand: Terraform lets you define what your infrastructure should look like in a straightforward way,
+                        making the code easier to read and maintain.
+4.	Keeps Track: Terraform keeps a record of your infrastructure, so it knows exactly what’s already there and what needs to change.
+5.	Preview Changes: You can see a preview of what changes Terraform will make before they happen, reducing the chance of surprises.
+6.	Strong Community: There's a big community of users who share solutions and provide help, making it easier to find answers and learn.
+7.	Works with Other Tools: Terraform can be easily combined with other tools you might be using, like Docker or Kubernetes, 
+                            to automate your entire workflow.
+8.	Simple Language: Terraform uses a clear, easy-to-read language designed specifically for defining infrastructure.
+
+Explanation of the key Terraform terms:
+1.	Provider: A plugin that tells Terraform how to interact with cloud platforms like AWS, Azure, or Google Cloud.
+2.	Resource: The things you want to create, like virtual machines or storage, defined in your Terraform code.
+3.	Module: A reusable package of Terraform code that helps you set up specific parts of your infrastructure.
+4.	Configuration File: The files where you write Terraform code to define your infrastructure.
+5.	Variable: Placeholders in your code that let you pass in values, making your setup more flexible.
+6.	Output: Information that Terraform gives you after it sets up your infrastructure.
+7.	State File: A file where Terraform keeps track of what it has created, so it knows what to change next.
+8.	Plan: A preview of changes Terraform will make to your infrastructure.
+9.	Apply: The command to actually make the changes Terraform has planned.
+10.	Workspace: Separate environments (like dev or prod) that help keep your infrastructure organized.
+11.	Remote Backend: A safe place to store your Terraform state file online, for better collaboration and security.
+
